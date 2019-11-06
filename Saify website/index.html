@@ -18,8 +18,13 @@
 </head>
 <body>
 <header>
+	<div class="container">
 	<a href="#" class="brand">Saify Developers</a>
-	<nav>
+			<input type="checkbox" id="chx">
+			<label for="chx" class="show-menu">
+				<i class="fas fa-ellipsis-h"></i>
+			</label>
+	<nav class="menu">
 		<ul>
 			<li><a href="#">Home</a></li>
 			<li><a href="#">Services</a></li>
@@ -27,6 +32,9 @@
 			<li><a href="#">Our Works</a></li>
             <li><a href="#">Contact</a></li>
 			<li><a href="#">Footer</a></li>
+			<li><label for="chx" class="hide-menu">
+			<i class="fas fa-times"></i>
+			</label></li>
 		</ul>
 	</nav>
 </header>
@@ -59,7 +67,7 @@
 		<li class="text-center img3 white">
 			<h2>Saifee <span>Developers</span></h2>
 		    <p>Your Project Our Project</p>
-<i class="fab fa-wordpress-simple fa-3x"></i>&nbsp&nbsp
+            <i class="fab fa-wordpress-simple fa-3x"></i>&nbsp&nbsp
 			<i class="fab fa-apple fa-3x"></i>&nbsp&nbsp
 			<i class="fab fa-android fa-3x"></i>
 			<p>Lorem ipsum dolor sit amet elit, sed do eiusmod
@@ -70,6 +78,7 @@
 	    </li>
 	</ul>
 </section>
+</div>
 <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
