@@ -1,0 +1,48 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background:#232323;
+	font-family:arial;
+}
+
+#container{
+	width:600px;
+	margin:0 auto;
+	margin-top: 30px;
+}
+
+.square{
+	width:30%;
+	float:left;
+	margin:1.66%;
+	background:blue;
+	padding-bottom:30%;
+	border-radius:15%;
+	transition: background 1s;
+}
+h1{
+	color:white;
+	background:steelblue;
+	text-align:center;
+}
+.selected{
+	background:blue;
+	border:2px solid red;
+}
+#colorDisplay{
+	font-size:50px;
+}
+button{
+	font-weight:bold;
+	outline: none;
+	height:100%;
+	color:black;
+	padding:0 10px;
+	border:none;
+	line-height:30px;
+	box-sizing: border-box;
+
+}
+
