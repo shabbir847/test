@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Login Form</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Oswald|Playball&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<a href="#" class="logo">Stack Hack</a>
+
+		<input type="checkbox" id="chx">
+		<label for="chx" class="show-menu">
+			<i class="fas fa-bars show-menu"></i>
+		</label>
+		<nav class="menu">
+			<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Features</a></li>
+			<li><a href="#">Contact Us</a></li>
+			<li>
+				<label for="chx" class="hide-menu">
+				<i class="fas fa-times"></i>
+				</label>
+			</li>
+			 </ul>
+		</nav>
+	</header>
+	<section class="login_sec">
+		<div class="row">
+			<div class="col-12 col-md-6 login_img">
+				<img src="images/img.png">
+			</div>
+			<div class="col-12 col-md-6 login_form">
+				<div class="login_detail">
+					<h3>LOG IN</h3><br><br>
+				<form>
+					<i class="far fa-envelope"></i>
+					<input type="text" name="email" id="email" placeholder="Email or Mobile Number" autocomplete="off">
+					<p id="error1"></p>
+
+					<i class="fas fa-wrench"></i>
+					<input type="password" name="password" id="pass" placeholder="Password" autocomplete="off">
+					<p id="error2"></p>
+
+					<input type="submit" value="Log In" id="submitbtn" class="btn"><br><br>
+					<p><a href="#">ForgetPassword</a></p>
+					<p>Not a member?<a href="#">Sign Up</a></p>
+				</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="container-fluid">
+			<a href="#" class="foo_logo">LOGO</a>
+		<nav class="menu2">
+		<ul>
+			<li><a href="#">Privacy Policy</a></li>
+			<li><a href="#">Terms & Conditions</a></li>
+			<li><a href="#">FAQ</a></li>
+			<li><a href="#">About Us</a></li>
+			<ul class="foo_end">
+			<a href="#" style="color:grey">Your@email.com</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span><a href="#" style="color:white;">SUBSCRIBE</a></span>
+		    </ul>
+		</ul>
+		</nav>
+		</div>
+	</footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/f545d1845e.js" crossorigin="anonymous"></script>
+
+  <script type="text/javascript" src="js/main.js"></script>
+
+
+
+</body>
+</html>
