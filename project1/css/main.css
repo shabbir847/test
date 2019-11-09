@@ -108,6 +108,30 @@ header{
 	margin-top:5px;
 	color:grey;
 }
+ .right1{
+ 	position:absolute;
+ 	right:280px;
+ 	color:green;
+ 	opacity:0;
+ 	transition:all 0.5s ease-in-out;
+ }
+.wrong1{
+	color:red;
+	opacity:0;
+	transition:all 0.5s ease-in-out;
+}
+.right2{
+ 	position:absolute;
+ 	right:280px;
+ 	color:green;
+ 	opacity:0;
+ 	transition:all 0.5s ease-in-out;
+ }
+.wrong2{
+	color:red;
+	opacity:0;
+	transition:all 0.5s ease-in-out;
+}
 
 .show-menu,.hide-menu{
 	color:white;
@@ -274,6 +298,31 @@ footer{
 .foo_end a:hover{
 	text-decoration:none;
 }
+.right1{
+	position:absolute;
+	right:80px;
+	color:green;
+	opacity:0;
+	transition:all 0.5s ease-in-out;
+}
+.wrong1{
+   color:red;
+   opacity:0;
+   transition:all 0.5s ease-in-out;
+}
+.right2{
+	position:absolute;
+	right:80px;
+	color:green;
+	opacity:0;
+	transition:all 0.5s ease-in-out;
+}
+.wrong2{
+   color:red;
+   opacity:0;
+   transition:all 0.5s ease-in-out;
+}
+
 }
 
 
